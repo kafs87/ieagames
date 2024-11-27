@@ -36,22 +36,22 @@ document.addEventListener("DOMContentLoaded", function () {
       let url = '';
       switch (nomePersonagem) {
         case 'Ebony':
-          url = "https://www.exemplo.com/ebony";
+          url = "https://ebony-sand.vercel.app/";
           break;
         case 'Vidia':
-          url = "https://www.exemplo.com/vidia";
+          url = "https://vidia-one.vercel.app/";
           break;
         case 'Frank':
-          url = "https://www.exemplo.com/frank";
+          url = "https://frank-sand.vercel.app/";
           break;
         case 'Arlen':
-          url = "https://www.exemplo.com/arlen";
+          url = "https://arlen-murex.vercel.app/";
           break;
         case 'Mei':
-          url = "https://www.exemplo.com/mei";
+          url = "https://mei-one.vercel.app/";
           break;
         case 'Viktor':
-          url = "https://www.exemplo.com/viktor";
+          url = "https://viktor-livid.vercel.app/";
           break;
         default:
           url = "https://www.exemplo.com";
