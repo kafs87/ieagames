@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEAGames - Crie sua interface</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header 
+    class="cabecalho">
+    <img class="logo" src="./src/imagens/logo.png" alt="Logo IEA">
+  </header>
+  
+  <main class="selecao-de-personagens">
+    <section class="personagens">
+      <h1 class="titulo">Selecione um personagem</h1>
+      <ul class="lista-de-personagens">
+        <li class="personagem selecionado" id="ebony" data-name="Ebony" data-description="Uma jovem alegre com cabelos vibrantes, apaixonada por dança e moda">
+          <img
+          src="./src/imagens/card-ebony.png"
+          alt="Personagem Ebony"
+          />
+        </li>
+        <li class="personagem" id="vidia" data-name="Vidia" data-description="Uma fada conectada à natureza, capaz de curar e proteger o ambiente.">
+          <img
+          src="./src/imagens/card-vidia.png"
+          alt="Personagem Vidia"
+          />
+        </li>
+        
+        <li class="personagem" id="frank" data-name="Frank" data-description="Um guerreiro forte e destemido, dedicado a proteger seu clã.">
+          <img
+          src="./src/imagens/card-frank.png"
+          alt="Personagem Frank"
+          />
+        </li>
+        
+        <li class="personagem" id="arlen" data-name="Arlen" data-description="Um jovem introspectivo que manipula sombras para proteger os outros.">
+          <img
+          src="./src/imagens/card-arlen.png"
+          alt="Personagem Arlen"
+          />
+        </li>
+        
+        <li class="personagem" id="mei" data-name="Mei" data-description="Determinada e ágil, sempre pronta para lutar por justiça.">
+          <img
+          src="./src/imagens/card-mei.png"
+          alt="Personagem Mei"
+          />
+        </li>
+        
+        <li class="personagem" id="viktor" data-name="Viktor" data-description="Cientista misterioso que domina energias perigosas.">
+          <img
+          src="./src/imagens/card-viktor.png"
+          alt="Personagem Viktor"
+          />
+        </li>
+        
+        <a href="#" id="link-play">
+          <button class="botao-play" id="botao-play">Play!</button>
+        </a>
+        
+      </ul>
+    </section>
+    <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/ebony.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ebony</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Uma jovem alegre com cabelos vibrantes, apaixonada por dança e moda.
+          </p>
+
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
